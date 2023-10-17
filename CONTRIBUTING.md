@@ -1,56 +1,37 @@
+# AutoGPT Contribution Guide
+If you are reading this, you are probably looking for our **[contribution guide]**,
+which is part of our [knowledge base].
 
-To contribute to this GitHub project, you can follow these steps:
+[contribution guide]: https://github.com/Significant-Gravitas/Nexus/wiki/Contributing
+[knowledge base]: https://github.com/Significant-Gravitas/Nexus/wiki
 
-1. Fork the repository you want to contribute to by clicking the "Fork" button on the project page.
+## In short
+1. Avoid duplicate work, issues, PRs etc.
+2. Also consider contributing something other than code; see the [contribution guide]
+   for options.
+3. Create a draft PR before starting work on non-small changes. Also post your proposal
+   in the [dev channel].
+4. Clearly explain your changes when submitting a PR.
+5. Don't submit stuff that's broken.
+6. Avoid making unnecessary changes, especially if they're purely based on your personal
+   preferences. Doing so is the maintainers' job.
 
-2. Clone the repository to your local machine using the following command:
+[dev channel]: https://discord.com/channels/1092243196446249134/1095817829405704305
 
-```
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/Auto-GPT
-```
-3. Create a new branch for your changes using the following command:
+## Why instructions like these are necessary
+We would like to say "We value all contributions". After all, we are an open-source
+project, so we should welcome any input that people are willing to give, right?
 
-```
-git checkout -b "branch-name"
-```
-4. Make your changes to the code or documentation.
-- Example: Improve User Interface or Add Documentation.
+Well, the reality is that some contributions are SUPER-valuable, while others create
+more trouble than they are worth and actually _create_ work for the core team. So to
+ensure maximum chances of a smooth ride, please stick to the guidelines.
 
+If you wish to involve with the project (beyond just contributing PRs), please read the
+wiki [catalyzing](https://github.com/Significant-Gravitas/Nexus/wiki/Catalyzing) page.
 
-5. Add the changes to the staging area using the following command:
-```
-git add .
-```
+In fact, why not just look through the whole wiki (it's only a few pages) and
+hop on our Discord. See you there! :-)
 
-6. Commit the changes with a meaningful commit message using the following command:
-```
-git commit -m "your commit message"
-```
-7. Push the changes to your forked repository using the following command:
-```
-git push origin branch-name
-```
-8. Go to the GitHub website and navigate to your forked repository.
-
-9. Click the "New pull request" button.
-
-10. Select the branch you just pushed to and the branch you want to merge into on the original repository.
-
-11. Add a description of your changes and click the "Create pull request" button.
-
-12. Wait for the project maintainer to review your changes and provide feedback.
-
-13. Make any necessary changes based on feedback and repeat steps 5-12 until your changes are accepted and merged into the main project.
-
-14. Once your changes are merged, you can update your forked repository and local copy of the repository with the following commands:
-
-```
-git fetch upstream
-git checkout master
-git merge upstream/master
-```
-Finally, delete the branch you created with the following command:
-```
-git branch -d branch-name
-```
-That's it you made it 🐣⭐⭐
+❤️ & 🔆
+The team @ AutoGPT
+https://discord.gg/autogpt
